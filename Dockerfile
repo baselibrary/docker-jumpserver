@@ -17,7 +17,7 @@ RUN \
 
 RUN \
   apt-get update &&\
-  apt-get install -y nginx redis-server supervisor &&\
+  apt-get install -y nginx redis-server supervisor libmysqlclient-dev &&\
   apt-get install -y $(cat /opt/jumpserver/requirements/deb_requirements.txt) &&\
   apt-get install -y $(cat /opt/coco/requirements/deb_requirements.txt)
 
