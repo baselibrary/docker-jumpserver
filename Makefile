@@ -1,7 +1,7 @@
 NAME     = baselibrary/jumpserver
 REPO     = git@github.com:baselibrary/docker-jumpserver.git
 REGISTRY = thoughtworks.io
-TAG      = 1.2.1
+TAG      = 1.3.0
 
 all: build
 

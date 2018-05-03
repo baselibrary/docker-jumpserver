@@ -6,8 +6,8 @@ RUN \
 
 RUN \
   mkdir -p /opt/jumpserver /opt/coco /opt/luna;\
-  curl -fsSL "https://github.com/jumpserver/jumpserver/archive/1.2.1.tar.gz" | tar -zxvf - --strip-components=1 -C /opt/jumpserver;\
-  curl -fsSL "https://github.com/jumpserver/coco/archive/1.2.0.tar.gz" | tar -zxvf - --strip-components=1 -C /opt/coco;\
+  curl -fsSL "https://github.com/jumpserver/jumpserver/archive/1.3.0.tar.gz" | tar -zxvf - --strip-components=1 -C /opt/jumpserver;\
+  curl -fsSL "https://github.com/jumpserver/coco/archive/1.3.0.tar.gz" | tar -zxvf - --strip-components=1 -C /opt/coco;\
   curl -fsSL "https://github.com/jumpserver/luna/releases/download/v1.0.0/luna.tar.gz" | tar -zxvf - --strip-components=1 -C /opt/luna
 
 RUN \

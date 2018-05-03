@@ -15,13 +15,13 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 class Config:
     # Use it to encrypt or decrypt data
     # SECURITY WARNING: keep the secret key used in production secret!
-    SECRET_KEY = os.environ.get('SECRET_KEY') or '2vym+ky!997d5kkcc64mnz06y1mmui3lut#(^wd=%s_qj$1%x'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or '2vym+ky!987d5kkcc64mnz06y1mmui3lut#(^wd=%s_qj$1%x'
 
     # Django security setting, if your disable debug model, you should setting that
     ALLOWED_HOSTS = ['*']
 
     # Development env open this, when error occur display the full process track, Production disable it
-    DEBUG = True
+    DEBUG = False
 
     # DEBUG, INFO, WARNING, ERROR, CRITICAL can set. See https://docs.djangoproject.com/en/1.10/topics/logging/
     LOG_LEVEL = 'INFO'
